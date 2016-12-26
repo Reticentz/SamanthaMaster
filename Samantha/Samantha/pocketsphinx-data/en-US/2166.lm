@@ -1,0 +1,179 @@
+Language model created by QuickLM on Mon Dec 26 13:52:05 EST 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 35 sentences and 40 words
+
+\data\
+ngram 1=40
+ngram 2=74
+ngram 3=42
+
+\1-grams:
+-0.8062 </s> -0.3010
+-0.8062 <s> -0.2226
+-2.3502 ALARM -0.2272
+-2.3502 APOINTMENT -0.2272
+-2.3502 APRIL -0.2272
+-2.3502 BACKWARD -0.2272
+-2.3502 BROWSER -0.2272
+-2.3502 E-MAIL -0.2272
+-2.3502 EMAIL -0.2272
+-2.3502 FORWARD -0.2272
+-2.3502 HEY -0.2971
+-2.3502 HOME -0.2272
+-2.3502 IS -0.2272
+-2.3502 IT -0.2272
+-2.3502 JEREMIAH -0.2272
+-2.3502 KIM -0.2272
+-2.3502 LARRY -0.2272
+-2.3502 LAST -0.2971
+-2.3502 LIGHT -0.2272
+-2.3502 LIGHTS -0.2272
+-2.3502 MOM -0.2272
+-2.0492 MUSIC -0.2249
+-2.3502 MY -0.2272
+-2.3502 NEW -0.2991
+-2.3502 NEXT -0.2971
+-2.3502 OFF -0.2272
+-2.0492 OPEN -0.2952
+-2.3502 PLAY -0.2272
+-2.3502 PLAYER -0.2272
+-2.3502 SAM -0.2272
+-2.0492 SAMANTHA -0.2272
+-2.3502 SEND -0.2272
+-2.3502 SET -0.2272
+-2.3502 START -0.2272
+-2.3502 TIME -0.2272
+-2.3502 TODAY -0.2272
+-2.3502 TURN -0.2272
+-2.3502 WEATHER -0.2272
+-2.3502 WHAT -0.2272
+-2.0492 WINDOW -0.2272
+
+\2-grams:
+-1.8451 <s> ALARM 0.0000
+-1.8451 <s> APOINTMENT 0.0000
+-1.8451 <s> APRIL 0.0000
+-1.8451 <s> BACKWARD 0.0000
+-1.8451 <s> EMAIL 0.0000
+-1.8451 <s> FORWARD 0.0000
+-1.8451 <s> HEY 0.0000
+-1.8451 <s> HOME 0.0000
+-1.8451 <s> IS 0.0000
+-1.8451 <s> IT 0.0000
+-1.8451 <s> JEREMIAH 0.0000
+-1.8451 <s> KIM 0.0000
+-1.8451 <s> LARRY 0.0000
+-1.8451 <s> LAST 0.0000
+-1.8451 <s> LIGHT 0.0000
+-1.8451 <s> LIGHTS 0.0000
+-1.8451 <s> MOM 0.0000
+-1.8451 <s> MUSIC -0.1761
+-1.8451 <s> MY 0.0000
+-1.8451 <s> NEW 0.0000
+-1.8451 <s> NEXT 0.0000
+-1.8451 <s> OFF 0.0000
+-1.5441 <s> OPEN 0.0000
+-1.8451 <s> PLAY 0.0000
+-1.8451 <s> SAM 0.0000
+-1.8451 <s> SAMANTHA 0.0000
+-1.8451 <s> SEND 0.0000
+-1.8451 <s> SET 0.0000
+-1.8451 <s> START 0.0000
+-1.8451 <s> TIME 0.0000
+-1.8451 <s> TODAY 0.0000
+-1.8451 <s> TURN 0.0000
+-1.8451 <s> WEATHER 0.0000
+-1.8451 <s> WHAT 0.0000
+-0.3010 ALARM </s> -0.3010
+-0.3010 APOINTMENT </s> -0.3010
+-0.3010 APRIL </s> -0.3010
+-0.3010 BACKWARD </s> -0.3010
+-0.3010 BROWSER </s> -0.3010
+-0.3010 E-MAIL </s> -0.3010
+-0.3010 EMAIL </s> -0.3010
+-0.3010 FORWARD </s> -0.3010
+-0.3010 HEY SAMANTHA 0.0000
+-0.3010 HOME </s> -0.3010
+-0.3010 IS </s> -0.3010
+-0.3010 IT </s> -0.3010
+-0.3010 JEREMIAH </s> -0.3010
+-0.3010 KIM </s> -0.3010
+-0.3010 LARRY </s> -0.3010
+-0.3010 LAST WINDOW 0.0000
+-0.3010 LIGHT </s> -0.3010
+-0.3010 LIGHTS </s> -0.3010
+-0.3010 MOM </s> -0.3010
+-0.6021 MUSIC </s> -0.3010
+-0.6021 MUSIC PLAYER 0.0000
+-0.3010 MY </s> -0.3010
+-0.3010 NEW E-MAIL 0.0000
+-0.3010 NEXT WINDOW 0.0000
+-0.3010 OFF </s> -0.3010
+-0.6021 OPEN BROWSER 0.0000
+-0.6021 OPEN MUSIC -0.1761
+-0.3010 PLAY </s> -0.3010
+-0.3010 PLAYER </s> -0.3010
+-0.3010 SAM </s> -0.3010
+-0.3010 SAMANTHA </s> -0.3010
+-0.3010 SEND </s> -0.3010
+-0.3010 SET </s> -0.3010
+-0.3010 START </s> -0.3010
+-0.3010 TIME </s> -0.3010
+-0.3010 TODAY </s> -0.3010
+-0.3010 TURN </s> -0.3010
+-0.3010 WEATHER </s> -0.3010
+-0.3010 WHAT </s> -0.3010
+-0.3010 WINDOW </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ALARM </s>
+-0.3010 <s> APOINTMENT </s>
+-0.3010 <s> APRIL </s>
+-0.3010 <s> BACKWARD </s>
+-0.3010 <s> EMAIL </s>
+-0.3010 <s> FORWARD </s>
+-0.3010 <s> HEY SAMANTHA
+-0.3010 <s> HOME </s>
+-0.3010 <s> IS </s>
+-0.3010 <s> IT </s>
+-0.3010 <s> JEREMIAH </s>
+-0.3010 <s> KIM </s>
+-0.3010 <s> LARRY </s>
+-0.3010 <s> LAST WINDOW
+-0.3010 <s> LIGHT </s>
+-0.3010 <s> LIGHTS </s>
+-0.3010 <s> MOM </s>
+-0.3010 <s> MUSIC </s>
+-0.3010 <s> MY </s>
+-0.3010 <s> NEW E-MAIL
+-0.3010 <s> NEXT WINDOW
+-0.3010 <s> OFF </s>
+-0.6021 <s> OPEN BROWSER
+-0.6021 <s> OPEN MUSIC
+-0.3010 <s> PLAY </s>
+-0.3010 <s> SAM </s>
+-0.3010 <s> SAMANTHA </s>
+-0.3010 <s> SEND </s>
+-0.3010 <s> SET </s>
+-0.3010 <s> START </s>
+-0.3010 <s> TIME </s>
+-0.3010 <s> TODAY </s>
+-0.3010 <s> TURN </s>
+-0.3010 <s> WEATHER </s>
+-0.3010 <s> WHAT </s>
+-0.3010 HEY SAMANTHA </s>
+-0.3010 LAST WINDOW </s>
+-0.3010 MUSIC PLAYER </s>
+-0.3010 NEW E-MAIL </s>
+-0.3010 NEXT WINDOW </s>
+-0.3010 OPEN BROWSER </s>
+-0.3010 OPEN MUSIC PLAYER
+
+\end\

@@ -1,0 +1,35 @@
+open browser
+new e-mail
+forward
+backward
+next window
+last window
+open music player
+samantha
+sam
+hey samantha
+start
+send
+email
+turn
+off 
+lights
+light
+what 
+time
+is
+it
+my 
+apointment
+today
+weather
+music
+play
+set
+alarm
+jeremiah
+mom
+kim
+larry
+april
+home
