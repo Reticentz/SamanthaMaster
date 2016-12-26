@@ -31,6 +31,9 @@
     <Compile Include="sphinxModule.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="testModule.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ReadMe.txt" />
